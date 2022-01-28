@@ -1,15 +1,23 @@
 header {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    background-color: #cae9e9;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .logo {
     font-family: 'Dancing Script', cursive;
-    float: left;
-    font-size: 24px;
-    width: 25%; 
+    font-size: 238%;
+    grid-column: 1; 
+}
+
+.subheading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    grid-column: 2; 
+    justify-self: center;
 }
 
 .heading-links {
-    float: right;
+    grid-column: 3;
+    justify-self: start;
 }
