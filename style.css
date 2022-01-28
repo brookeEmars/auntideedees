@@ -1,0 +1,12 @@
+header {
+    display: flex;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    float: left;
+}
+
+.heading-links {
+    float: right;
+}
