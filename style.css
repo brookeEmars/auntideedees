@@ -1,11 +1,13 @@
 header {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .logo {
     font-family: 'Dancing Script', cursive;
     float: left;
     font-size: 24px;
+    width: 25%; 
 }
 
 .heading-links {
