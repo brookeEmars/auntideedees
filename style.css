@@ -1,23 +1,149 @@
-header {
-    display: grid;
+.header {
     background-color: #cae9e9;
-    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    height: 120px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-content: center;
+    position:fixed;
+    z-index: 10;
 }
 
 .logo {
     font-family: 'Dancing Script', cursive;
-    font-size: 238%;
-    grid-column: 1; 
+    font-size: 300%;
+    grid-column: 1;
+    padding-left: 20px;
 }
 
 .subheading {
     font-family: 'Dancing Script', cursive;
     font-size: 200%;
-    grid-column: 2; 
+    grid-column: 2;
     justify-self: center;
+    padding-top: 10px;
 }
 
 .heading-links {
     grid-column: 3;
-    justify-self: start;
+    justify-self: end;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+
+}
+
+#loaf {
+    height: 700px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+}  
+
+.description {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    opacity: .7;
+    top: 25%;
+    padding: 10px;
+}
+
+.photos {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin:auto;
+}
+
+#pastries {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.pastries {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+
+#lunch {
+    height: 250px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.lunch {
+    text-align: center;
+    display: block;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+
+#honey {
+    height: 250px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.honey {
+    text-align: center;
+    display: block;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+
+#cakes {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.cakes {
+    text-align: center;
+    display: block;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+
+#deedee {
+    float: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#owner {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    background-color: black;
+    opacity: .7;
+    top: 25%;
+    padding: 10px;
+    width: 1000px;
+    margin-left: 10%;
+    border-radius: 25%;
+    margin-top: 25px;
 }
